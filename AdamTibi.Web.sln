@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdamTibi.Web.Prg", "AdamTibi.Web.Prg\AdamTibi.Web.Prg.csproj", "{E16B17E8-96CF-419E-AC54-F3B84E62D414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdamTibi.Web.Website", "AdamTibi.Web.Website\AdamTibi.Web.Website.csproj", "{F8C42B31-0F42-4729-969B-22B772AB70A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E16B17E8-96CF-419E-AC54-F3B84E62D414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16B17E8-96CF-419E-AC54-F3B84E62D414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16B17E8-96CF-419E-AC54-F3B84E62D414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16B17E8-96CF-419E-AC54-F3B84E62D414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C42B31-0F42-4729-969B-22B772AB70A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C42B31-0F42-4729-969B-22B772AB70A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C42B31-0F42-4729-969B-22B772AB70A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C42B31-0F42-4729-969B-22B772AB70A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {541CE2AE-0EC9-4111-98A6-E78624BBE597}
+	EndGlobalSection
+EndGlobal

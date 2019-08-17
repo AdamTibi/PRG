@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Adam Tibi</Authors>
+    <Copyright>Adam Tibi</Copyright>
+    <Description>Has two attributes to allow implementing the PRG (Post, Redirect, Get) pattern. The two attributes PreserveModelStateAttribute and RestoreModelStateAttribute will save the ModelState, in a clean way, when redirecting from one action method to another. Check the repository for more info and an example project.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>PRG, Post-Redirect-Get</PackageTags>
+    <RepositoryUrl>https://github.com/AdamTibi/PRG</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/AdamTibi/PRG</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.4" />
+  </ItemGroup>
+
+</Project>

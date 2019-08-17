@@ -1,0 +1,27 @@
+﻿@model AdamTibi.Web.Website.ViewModels.ContactUsViewModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<h1>Contact Us</h1>
+
+<div class="row">
+    <div class="col-4">
+        <p>Current local time is @Model.CurrentTime.ToString("yyyy-MM-dd HH:mm"), we will get back to you in @Model.ResponseTime hours if you submit your request within the next 10 min.</p>
+
+        <form asp-controller="Home" asp-action="ContactUsSubmit" autocomplete="off">
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">Email address</label>
+                <input asp-for="Email" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+                <span asp-validation-for="Email" class="text-danger">The email is mandatory</span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Message" class="control-label">Message</label>
+                <textarea asp-for="Message" type="password" class="form-control" placeholder="Enter message"></textarea>
+                <span asp-validation-for="Message" class="text-danger">The message is mandatory</span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+        </form>
+    </div>
+</div>
+
